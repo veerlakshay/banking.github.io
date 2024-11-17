@@ -1,0 +1,155 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+    /* Ensure all elements fit within the viewport */
+    * {
+        box-sizing: border-box;
+    }
+
+    html , body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: #f9fafc;
+        overflow-x: hidden;
+    }
+
+    .hero {
+        height: -webkit-fill-available;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .hero-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-image img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .primary-btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Responsive Login Section */
+@media (max-width: 768px) {
+    .login-box {
+        padding: 2rem 1.5rem;
+    }
+
+    .login-box h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-group input {
+        padding: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        padding: 1.5rem 1rem;
+    }
+
+    .login-box h2 {
+        font-size: 1.2rem;
+    }
+
+    .form-group input {
+        padding: 0.6rem;
+    }
+
+    .btn.primary-btn {
+        font-size: 0.9rem;
+        padding: 0.7rem 1rem;
+    }
+}
+
+
+/* Responsive Signup Section */
+@media (max-width: 768px) {
+    .signup-box {
+        padding: 2rem 1.5rem;
+    }
+
+    .signup-box h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-group input {
+        padding: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-box {
+        padding: 1.5rem 1rem;
+    }
+
+    .signup-box h2 {
+        font-size: 1.2rem;
+    }
+
+    .form-group input {
+        padding: 0.6rem;
+    }
+
+    .btn.primary-btn {
+        font-size: 0.9rem;
+        padding: 0.7rem 1rem;
+    }
+}
+
+
+/* Dashboard Section */
+@media (max-width: 768px) {
+    .current-balance, .send-money {
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+    }
+
+    .current-balance h2, .send-money h2 {
+        font-size: 1.5rem;
+    }
+
+    .balance {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .dropdown-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .dropdown-content a {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dashboard - Banking Info">
+    <title>Dashboard - Banking Info</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">Banking<span>Info</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropdown-btn">Menu</button>
+                            <div class="dropdown-content">
+                                <a href="market-news.html">Market News</a>
+                                <a href="index.html" id="logout-btn">Logout</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="dashboard-section">
+        <div class="container">
+            <!-- Current Balance Section -->
+            <div class="current-balance">
+                <h2>Current Balance</h2>
+                <p class="balance">$5,240.50</p>
+            </div>
+
+            <!-- Send Money Section -->
+            <div class="send-money">
+                <h2>Send Money</h2>
+                <form id="send-money-form">
+                    <div class="form-group">
+                        <label for="email">Recipient's Email</label>
+                        <input type="email" id="email" placeholder="Enter recipient's email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">Amount</label>
+                        <input type="number" id="amount" placeholder="Enter amount" required>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Money</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Banking Info. Designed with 💙.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/app.js" defer></script>
+</body>
+</html>
